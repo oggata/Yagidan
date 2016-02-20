@@ -1,0 +1,37 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 30,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/Config/GameConfig.js",
+        "src/Layer/TopLayer.js",
+        "src/Layer/GameLayer.js",
+        "src/Layer/StageLayer.js",
+        "src/Sprite/Player.js",
+        "src/Sprite/Enemy.js",
+        "src/Sprite/Gauge.js",
+        "src/Sprite/DamageText.js",
+        "src/Sprite/DamageEffect.js",
+        "src/Sprite/Marker.js",
+        "src/Sprite/Animal.js",
+        "src/Sprite/Building.js",
+        "src/Util/Storage.js",
+        "src/UI/CutIn.js",
+        "src/UI/Menu.js",
+        "src/UI/ResultLost.js",
+        "src/UI/ResultWin.js",
+        "src/UI/Tutorial.js",
+        "src/UI/Setting.js",
+        "src/Util/Button.js",
+        "src/Util/Sound.js"
+    ]
+}
